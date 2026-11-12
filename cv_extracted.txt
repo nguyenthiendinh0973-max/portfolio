@@ -1,0 +1,54 @@
+NGUYỄN THIÊN ĐỊNH
+CHUYÊN VIÊN LẬP TRÌNH (ERP / FULL-STACK)
+📱  SĐT: 0854 243 828 | 📍  Địa chỉ: Ninh Kiều, TP. Cần Thơ
+✉  Email: nguyenthiendinh.dev@gmail.com
+🌐  Portfolio: https://ln.run/RfYKG
+MỤC TIÊU NGHỀ NGHIỆP
+Kỹ sư Kỹ thuật Phần mềm với gần 2 năm kinh nghiệm thực chiến lập trình Web, Desktop & API Doanh nghiệp.
+Định hướng ứng dụng thế mạnh về ReactJS, Node.js, PHP/Laravel, RESTful API và Cơ sở dữ liệu SQL để
+phát triển, tùy biến và tối ưu hóa hệ thống ERP/CRM, tự động hóa quy trình vận hành sản xuất tại Công ty
+TNHH Pima.
+KỸ NĂNG CHUYÊN MÔN
+Frontend & UI: ReactJS, JavaScript (ES6+),
+HTML5/CSS3, Vue.js, Tailwind CSS
+Backend & API: Node.js, Express, PHP (Laravel),
+C# (.NET Core), RESTful API, JWT
+Cơ sở dữ liệu: SQL Server, MySQL (Tối ưu Query,
+Stored Procedure, Migration)
+Tự động hóa & IoT: Google Apps Script, MQTT,
+WebSockets, Tích hợp phần cứng/Cảm biến
+Hệ thống & Vận hành: Git, Docker căn bản, Linux
+CLI, Quản trị Website WordPress, IT Helpdesk
+Ngoại ngữ & Khác: Tiếng Anh TOEIC 745, Đọc hiểu
+tài liệu Kỹ thuật, Thiết kế Đa phương tiện
+KINH NGHIỆM LÀM VIỆC
+Lập Trình Viên Full-Stack & Phát Triển Hệ Thống — CÔNG TY CNTT & GIẢI PHÁP SỐ 03/2024 – Hiện tại
+Xây dựng & phát triển các Dashboard quản trị nội bộ sử dụng ReactJS, Node.js và PHP (Laravel), hỗ trợ quản lý
+dữ liệu vận hành real-time.
+Thiết kế hệ thống RESTful API tích hợp xác thực Token/JWT bảo mật cho ứng dụng Web và Mobile.
+Xây dựng công cụ chuyển đổi & đồng bộ dữ liệu (Data Migration) giữa SQL Server và MySQL, nâng cao tốc độ
+truy vấn lên 25%.
+Lập trình kịch bản tự động hóa quy trình (Automation Scripts) bằng Google Apps Script kết nối Google Sheets &
+Database.
+Công nghệ: ReactJS, Node.js, PHP/Laravel, RESTful API, MySQL, SQL Server, Google Apps Script, Git
+Kỹ Sư Lập Trình & Tự Động Hóa (Freelance / Dự Án Độc Lập) — TỰ DO & DỰ ÁN KỸ THUẬT
+Thời gian: Từ khi hoàn thành công việc tại công ty cũ đến nay
+- Tích hợp thiết bị & phần cứng vào hệ thống tự động hóa: kết nối cảm biến, PLC, bo mạch điều khiển qua giao thức MQTT, WebSockets, Modbus, Serial/RS485 thu thập dữ liệu và điều khiển thời gian thực (real-time).
+- Phát triển hệ thống Web & Dashboard giám sát điều khiển: Xây dựng giao diện web quản trị, giám sát thiết bị từ xa, thiết kế RESTful API (Node.js, Express, PHP/Laravel, ReactJS).
+- Lập trình ứng dụng Desktop (PC App): Phát triển app Windows (C# .NET, WinForms/WPF) giao tiếp trực tiếp phần cứng, hiển thị biểu đồ đo lường thông số kỹ thuật và cảnh báo vận hành real-time.
+- Phát triển ứng dụng Di Động (Mobile App): Xây dựng app mobile điều khiển, giám sát thông số thiết bị và nhận thông báo cảnh báo từ xa.
+- Hạ tầng & Hệ thống: Quản trị, bảo mật website, tối ưu máy chủ, cấu hình hạ tầng mạng và tích hợp API đồng bộ CSDL.
+Công nghệ: C# .NET, Node.js, ReactJS, Mobile (Flutter/React Native), MQTT, WebSockets, Modbus, RESTful API, SQL Server/MySQL
+Nhân Viên IT & Quản Trị Hệ Thống Nội Bộ — TT ĐÀO TẠO & SÁT HẠCH LÁI XE
+CHIẾN THẮNG
+09/2022 – 05/2023
+Quản trị dữ liệu học viên trên hệ thống SQL Server; cấu hình & khắc phục sự cố máy tính, mạng LAN/WAN, máy
+in.
+Quản trị toàn bộ website đơn vị, thiết kế banner và biên tập video truyền thông nội bộ cho trung tâm.
+HỌC VẤN & CHỨNG CHỈ
+Đại Học Kỹ Thuật - Công Nghệ Cần Thơ
+Kỹ Sư Kỹ Thuật Phần Mềm (2020 – 2024)
+Tốt nghiệp loại Khá | Đồ án tốt nghiệp đạt điểm 9.0
+Chứng Chỉ & Kỹ Năng Bổ Sung
+TOEIC 745 (IIG Vietnam)
+Chứng chỉ Lập trình Web Full-Stack & Thiết kế đồ họa căn bản

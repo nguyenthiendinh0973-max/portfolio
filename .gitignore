@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+create_cv_pdf.py
+
+# System
+Thumbs.db
+.DS_Store

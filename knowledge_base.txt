@@ -1,0 +1,96 @@
+# HỒ SƠ ỨNG VIÊN & DỮ LIỆU KNOWLEDGE BASE DÀNH CHO CHATBOT AI
+# -------------------------------------------------------------
+# File này chứa toàn bộ thông tin chi tiết của ứng viên Nguyễn Thiên Định.
+# Chatbot sẽ sử dụng thông tin này làm cơ sở tri thức (Knowledge Base) để trả lời câu hỏi của nhà tuyển dụng/người xem.
+
+[THÔNG TIN CÁ NHÂN]
+Họ và tên: NGUYỄN THIÊN ĐỊNH
+Vị trí chuyên môn: CHUYÊN VIÊN LẬP TRÌNH (FULL-STACK / ERP / TỰ ĐỘNG HÓA)
+Số điện thoại: 0854 243 828
+Email: nguyenthiendinh.dev@gmail.com
+Địa chỉ: Ninh Kiều, TP. Cần Thơ
+Portfolio liên kết: https://ln.run/RfYKG
+Trạng thái công việc: Sẵn sàng nhận dự án / cơ hội việc làm mới
+
+[MỤC TIÊU NGHỀ NGHIỆP]
+Kỹ sư Kỹ thuật Phần mềm với gần 2 năm kinh nghiệm thực chiến trong lập trình Web, Desktop & API Doanh nghiệp.
+Định hướng ứng dụng thế mạnh vững chắc về ReactJS, Node.js, PHP/Laravel, RESTful API và Cơ sở dữ liệu SQL để phát triển, tùy biến và tối ưu hóa hệ thống ERP/CRM, tự động hóa quy trình vận hành và chuyển đổi số sản xuất kinh doanh.
+
+[TỔNG HỢP KỸ NĂNG CHUYÊN MÔN (SKILLS SHOWCASE)]
+1. Frontend & UI/UX:
+   - Framework & UI Library: Tailwind CSS, Bootstrap 5, ReactJS (Hooks, Redux), Vue.js
+   - Core & Dynamic Interactions: JavaScript (ES6+), jQuery, AJAX (Asynchronous Fetch), HTML5, CSS3 Responsive
+   - 3D Web & Interactive Media: Tích hợp Mascot 3D tương tác trên Web, hiệu ứng Âm thanh / Audio sống động, Audio DSP, SpeechAce AI phát âm
+
+2. Backend & API:
+   - Ngôn ngữ & Framework: PHP (Laravel Framework - Eloquent ORM, Migrations, FormRequest), Node.js (Express.js), C# (.NET Core, WinForms/WPF)
+   - Kiến trúc & Giao tiếp: RESTful API design & integration, JWT Authentication, Token-based Security, SSO / RBAC phân quyền, WebSockets, MQTT
+
+3. Cơ sở dữ liệu (Databases):
+   - RDBMS: SQL Server, MySQL, PostgreSQL
+   - Kỹ năng nâng cao: Thiết kế CSDL quan hệ, Tối ưu hóa câu truy vấn (Query Optimization), Stored Procedures, Triggers, Data Migration, Đồng bộ hóa dữ liệu quy mô lớn
+
+4. Tự động hóa, Tích hợp & IoT:
+   - Google Workspace Automation: Google Apps Script (tự động hóa Google Sheets, Docs, Gmail, Forms, tích hợp REST API)
+   - IoT & Real-time: Giao thức MQTT, WebSockets, thu thập và xử lý tín hiệu cảm biến / phần cứng theo thời gian thực
+
+5. DevOps, Hệ thống & Công cụ:
+   - Version Control: Git, GitHub, GitLab
+   - Môi trường & Ảo hóa: Docker căn bản, Linux CLI, Nginx/Apache, VPS Deployment
+   - Quản trị nội bộ & CMS: WordPress (Customization & Management), IT Helpdesk, Mạng LAN/WAN, Khắc phục sự cố phần cứng & hệ thống mạng
+
+6. Ngoại ngữ & Kỹ năng mềm:
+   - Ngoại ngữ: Tiếng Anh TOEIC 745 (IIG Vietnam) - Khả năng đọc hiểu tài liệu kỹ thuật chuyên sâu, viết tài liệu và giao tiếp tốt
+   - Kỹ năng khác: Thiết kế đa phương tiện (Photoshop, Canva, Premiere dựng video truyền thông), Tư duy giải quyết vấn đề (Problem Solving), Làm việc nhóm và Độc lập tốt
+
+[KINH NGHIỆM LÀM VIỆC CHI TIẾT]
+1. Lập Trình Viên Full-Stack & Phát Triển Hệ Thống
+   - Nơi làm việc: CÔNG TY CNTT & GIẢI PHÁP SỐ
+   - Thời gian: 03/2024 – Hiện tại
+   - Trách nhiệm & Thành tựu:
+     + Xây dựng & phát triển các Dashboard quản trị nội bộ sử dụng ReactJS, Node.js và PHP (Laravel), phục vụ theo dõi dữ liệu vận hành real-time của doanh nghiệp.
+     + Thiết kế & triển khai hệ thống RESTful API chuẩn bảo mật cao với cơ chế xác thực Token / JWT cho cả Web và Mobile.
+     + Nghiên cứu & xây dựng công cụ Data Migration giúp chuyển đổi và đồng bộ dữ liệu giữa SQL Server và MySQL, nâng cao tốc độ truy vấn lên 25%.
+     + Lập trình kịch bản tự động hóa quy trình (Automation Scripts) với Google Apps Script kết nối hai chiều giữa Google Sheets và CSDL tập trung.
+   - Công nghệ sử dụng: ReactJS, Node.js, PHP/Laravel, RESTful API, MySQL, SQL Server, Google Apps Script, Git.
+
+2. Kỹ Sư Lập Trình Hệ Thống & Tự Động Hóa (Freelance / Độc Lập)
+   - Nơi làm việc: LÀM VIỆC TỰ DO / DỰ ÁN KỸ THUẬT & TỰ ĐỘNG HÓA
+   - Thời gian: Từ khi hoàn thành công việc tại công ty cũ đến Hiện tại (Full-time Freelance & Hợp đồng dự án)
+   - Trách nhiệm & Thành tựu:
+     + Tích hợp thiết bị & phần cứng vào hệ thống tự động: Kết nối các module cảm biến, thiết bị IoT/công nghiệp, PLC, vi điều khiển qua MQTT, WebSockets, Modbus, Serial/RS485 với Server điều khiển trung tâm.
+     + Lập trình ứng dụng Desktop PC (C# .NET, WinForms/WPF): Phần mềm điều khiển phần cứng, thu thập dữ liệu kỹ thuật, vẽ đồ thị telemetry thời gian thực và cảnh báo tự động.
+     + Phát triển Web Application & Dashboard điều khiển: Xây dựng hệ thống web điều khiển từ xa, RESTful API và giao diện giám sát vận hành (Node.js, Express, PHP/Laravel, ReactJS).
+     + Phát triển ứng dụng Di Động (Mobile App): Ứng dụng mobile kết nối hệ thống tự động hóa, theo dõi tình trạng thiết bị và điều khiển on/off, điều chỉnh thông số từ xa.
+     + Quản trị giải pháp mạng, máy chủ và tối ưu website, bảo mật dữ liệu và hạ tầng IT cho các khách hàng dự án.
+   - Công nghệ sử dụng: C# .NET, Node.js, ReactJS, Mobile (Flutter/React Native), MQTT, WebSockets, Modbus, RESTful API, MySQL, SQL Server, Google Apps Script.
+
+3. Nhân Viên IT & Quản Trị Hệ Thống Nội Bộ
+   - Nơi làm việc: TRUNG TÂM ĐÀO TẠO & SÁT HẠCH LÁI XE CHIẾN THẮNG
+   - Thời gian: 09/2022 – 05/2023
+   - Trách nhiệm & Thành tựu:
+     + Quản trị, bảo trì dữ liệu học viên và thi cử trên hệ thống SQL Server nội bộ; sao lưu định kỳ đảm bảo tính an toàn dữ liệu.
+     + Cấu hình thiết bị, xử lý sự cố máy tính, hệ thống mạng LAN/WAN và máy in của toàn bộ trung tâm.
+     + Quản trị website đơn vị; thiết kế banner và biên tập video truyền thông nội bộ.
+
+[HỌC VẤN & NĂNG LỰC THỰC CHIẾN]
+- Đại Học Kỹ Thuật - Công Nghệ Cần Thơ (CTUT)
+  + Chuyên ngành: Kỹ Sư Kỹ Thuật Phần Mềm
+  + Thời gian: 2020 – 2024
+  + Xếp loại tốt nghiệp: Khá
+  + Năng lực nổi bật: Độc lập làm chủ toàn bộ vòng đời phát triển dự án quy mô lớn (Solo Full-Cycle Engineering): từ phân tích yêu cầu, thiết kế kiến trúc, lập trình Full-Stack, tích hợp phần cứng/IoT đến đóng gói Windows Installer, triển khai server production và bảo trì vận hành.
+- Chứng chỉ tiếng Anh: TOEIC 745 (IIG Vietnam cấp)
+- Chứng chỉ chuyên môn: Chứng chỉ Lập trình Web Full-Stack & Thiết kế đồ họa căn bản.
+
+[CÂU HỎI THƯỜNG GẶP (FAQ) DÀNH CHO NHÀ TUYỂN DỤNG]
+Q: Định có kinh nghiệm bao nhiêu năm trong ngành lập trình?
+A: Định có gần 2 năm kinh nghiệm thực chiến lập trình Full-Stack Web, Desktop & API Doanh nghiệp, cùng khả năng độc lập triển khai dự án lớn toàn diện từ A–Z.
+
+Q: Điểm mạnh kỹ thuật lớn nhất của Định là gì?
+A: Định thành thạo cả Frontend (ReactJS, Vue.js, Tailwind), Backend (Node.js, PHP/Laravel, C# .NET), cơ sở dữ liệu quan hệ (SQL Server, MySQL - tối ưu query và data migration) và đặc biệt là kỹ năng tự động hóa quy trình với Google Apps Script và IoT (MQTT/WebSockets).
+
+Q: Định có sẵn sàng làm việc Full-time, On-site hay Remote không?
+A: Định luôn sẵn sàng cho các cơ hội công việc Full-time, Hybrid hoặc Remote, có khả năng làm việc độc lập hoặc phối hợp nhóm rất tốt nhờ tiếng Anh TOEIC 745 và tác phong chuyên nghiệp.
+
+Q: Làm thế nào để liên hệ phỏng vấn hoặc kết nối trực tiếp với Định?
+A: Quý anh/chị có thể liên hệ ngay qua SĐT: 0854 243 828 hoặc Email: nguyenthiendinh.dev@gmail.com.
