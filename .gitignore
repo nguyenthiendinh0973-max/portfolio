@@ -6,3 +6,10 @@ create_cv_pdf.py
 # System
 Thumbs.db
 .DS_Store
+
+# Test & Debug artifacts
+test_*
+slice_*
+pdf_*.png
+cv_preview*.png
+full_page_test.png

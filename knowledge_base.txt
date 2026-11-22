@@ -9,7 +9,7 @@ Vị trí chuyên môn: CHUYÊN VIÊN LẬP TRÌNH (FULL-STACK / ERP / TỰ Đ�
 Số điện thoại: 0854 243 828
 Email: nguyenthiendinh.dev@gmail.com
 Địa chỉ: Ninh Kiều, TP. Cần Thơ
-Portfolio liên kết: https://ln.run/RfYKG
+Portfolio liên kết: https://nguyenthiendinh0973-max.github.io/portfolio/
 Trạng thái công việc: Sẵn sàng nhận dự án / cơ hội việc làm mới
 
 [MỤC TIÊU NGHỀ NGHIỆP]
@@ -79,8 +79,7 @@ Kỹ sư Kỹ thuật Phần mềm với gần 2 năm kinh nghiệm thực chi�
   + Thời gian: 2020 – 2024
   + Xếp loại tốt nghiệp: Khá
   + Năng lực nổi bật: Độc lập làm chủ toàn bộ vòng đời phát triển dự án quy mô lớn (Solo Full-Cycle Engineering): từ phân tích yêu cầu, thiết kế kiến trúc, lập trình Full-Stack, tích hợp phần cứng/IoT đến đóng gói Windows Installer, triển khai server production và bảo trì vận hành.
-- Chứng chỉ tiếng Anh: TOEIC 745 (IIG Vietnam cấp)
-- Chứng chỉ chuyên môn: Chứng chỉ Lập trình Web Full-Stack & Thiết kế đồ họa căn bản.
+- Chứng chỉ ngoại ngữ: Tiếng Anh TOEIC 745 (IIG Vietnam cấp) - Khả năng đọc hiểu tài liệu chuyên sâu và giao tiếp tốt trong môi trường quốc tế.
 
 [CÂU HỎI THƯỜNG GẶP (FAQ) DÀNH CHO NHÀ TUYỂN DỤNG]
 Q: Định có kinh nghiệm bao nhiêu năm trong ngành lập trình?

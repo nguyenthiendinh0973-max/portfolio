@@ -123,10 +123,13 @@ def get_css():
   }
 
   @media print {
-    body {
-      background: white !important;
-      padding: 0 !important;
+    html, body {
+      width: 210mm !important;
+      height: 297mm !important;
       margin: 0 !important;
+      padding: 0 !important;
+      background: white !important;
+      overflow: hidden !important;
     }
     .top-action-bar {
       display: none !important;
@@ -136,8 +139,10 @@ def get_css():
       box-shadow: none !important;
       width: 210mm !important;
       height: 297mm !important;
-      page-break-after: always;
-      page-break-inside: avoid;
+      max-height: 297mm !important;
+      page-break-after: avoid !important;
+      page-break-inside: avoid !important;
+      overflow: hidden !important;
     }
   }
 
@@ -535,7 +540,7 @@ def generate_vi_html():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Nguyễn Thiên Định - Kỹ Sư Phần Mềm (Full-Stack & IoT)</title>
+  <title>CV Nguyễn Thiên Định - Lập Trình Viên (Full-Stack &amp; IoT)</title>
   <style>
     {get_css()}
   </style>
@@ -553,7 +558,7 @@ def generate_vi_html():
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
         In / Lưu PDF (Ctrl + P)
       </button>
-      <a href="CV_NguyenThienDinh_Executive.pdf" download class="btn-primary">
+      <a href="CV_NguyenThienDinh_LapTrinhVien.pdf" download="CV_NguyenThienDinh_LapTrinhVien.pdf" class="btn-primary">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
         Tải PDF Trực Tiếp
       </a>
@@ -577,7 +582,7 @@ def generate_vi_html():
         </div>
         <div class="header-info">
           <h1 class="cand-name">Nguyễn Thiên Định</h1>
-          <div class="cand-role">Kỹ Sư Phần Mềm · Full-Stack, ERP & Tự Động Hóa IoT</div>
+          <div class="cand-role">Lập Trình Viên · Full-Stack, ERP &amp; Tự Động Hóa IoT</div>
           
           <div class="header-badges">
             <span class="badge-tag highlight">★ Làm chủ độc lập dự án A–Z (Phân tích → Triển khai → Bảo trì)</span>
@@ -597,7 +602,7 @@ def generate_vi_html():
             </div>
             <div class="contact-item">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-              <a href="https://ln.run/RfYKG" target="_blank">ln.run/RfYKG (Interactive Portfolio)</a>
+              <a href="https://nguyenthiendinh0973-max.github.io/portfolio/" target="_blank">nguyenthiendinh0973-max.github.io/portfolio</a>
             </div>
             <div class="contact-item">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -640,14 +645,7 @@ def generate_vi_html():
             <div class="side-card-title">TOEIC 745 Điểm</div>
             <div class="side-card-sub">Do IIG Vietnam cấp</div>
             <div class="side-card-desc">
-              Đọc hiểu tài liệu kỹ thuật chuyên sâu; giao tiếp và phối hợp nhóm tốt trong môi trường quốc tế.
-            </div>
-          </div>
-          <div class="side-card">
-            <div class="side-card-title">Full-Stack Web & Đồ Họa Căn Bản</div>
-            <div class="side-card-sub">Chứng nhận chuyên môn</div>
-            <div class="side-card-desc">
-              Hoàn thành đào tạo chuyên sâu về Full-Stack Web Development & Multimedia.
+              Đọc hiểu tài liệu kỹ thuật chuyên sâu; giao tiếp và phối hợp làm việc hiệu quả trong môi trường quốc tế.
             </div>
           </div>
         </div>
@@ -870,12 +868,6 @@ def generate_vi_html():
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="cv-footer">
-      <span>Hồ sơ năng lực kỹ thuật • <strong>Nguyễn Thiên Định</strong></span>
-      <span>Tra cứu tương tác trực tiếp &amp; Proof-of-Skill tại: <a href="https://ln.run/RfYKG" target="_blank">ln.run/RfYKG</a></span>
-    </footer>
-
   </div>
 
 </body>
@@ -887,7 +879,7 @@ def generate_en_html():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume - Nguyen Thien Dinh | Software Engineer (Full-Stack & IoT)</title>
+  <title>Resume - Nguyen Thien Dinh | Software Developer (Full-Stack &amp; IoT)</title>
   <style>
     {get_css()}
   </style>
@@ -898,14 +890,14 @@ def generate_en_html():
   <div class="top-action-bar">
     <div class="brand-title">
       <span>📄 RESUME: NGUYEN THIEN DINH</span>
-      <span style="font-size: 11px; color: #a5b4fc;">• Full-Stack, ERP & IoT Automation Engineer</span>
+      <span style="font-size: 11px; color: #a5b4fc;">• Software Developer · Full-Stack &amp; IoT Automation</span>
     </div>
     <div class="actions">
       <button onclick="window.print()" class="btn-emerald">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
         Print / Save PDF (Ctrl + P)
       </button>
-      <a href="CV_NguyenThienDinh_Executive_EN.pdf" download class="btn-primary">
+      <a href="CV_NguyenThienDinh_SoftwareDeveloper.pdf" download="CV_NguyenThienDinh_SoftwareDeveloper.pdf" class="btn-primary">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
         Download PDF Directly
       </a>
@@ -929,7 +921,7 @@ def generate_en_html():
         </div>
         <div class="header-info">
           <h1 class="cand-name">Nguyen Thien Dinh</h1>
-          <div class="cand-role">Software Engineer · Full-Stack, ERP & IoT Automation</div>
+          <div class="cand-role">Software Developer · Full-Stack, ERP &amp; IoT Automation</div>
           
           <div class="header-badges">
             <span class="badge-tag highlight">★ Full-Lifecycle Ownership: Requirements → Deployment → Maintenance</span>
@@ -949,7 +941,7 @@ def generate_en_html():
             </div>
             <div class="contact-item">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-              <a href="https://ln.run/RfYKG" target="_blank">ln.run/RfYKG (Interactive Portfolio)</a>
+              <a href="https://nguyenthiendinh0973-max.github.io/portfolio/" target="_blank">nguyenthiendinh0973-max.github.io/portfolio</a>
             </div>
             <div class="contact-item">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -993,13 +985,6 @@ def generate_en_html():
             <div class="side-card-sub">Issued by IIG Vietnam</div>
             <div class="side-card-desc">
               Fluent comprehension of deep technical documentation; confident business communication and agile collaboration.
-            </div>
-          </div>
-          <div class="side-card">
-            <div class="side-card-title">Full-Stack Web & Multimedia</div>
-            <div class="side-card-sub">Professional Certification</div>
-            <div class="side-card-desc">
-              Completed comprehensive training in Full-Stack Web Development & Multimedia engineering.
             </div>
           </div>
         </div>
@@ -1222,12 +1207,6 @@ def generate_en_html():
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="cv-footer">
-      <span>Technical Profile &amp; Qualifications • <strong>Nguyen Thien Dinh</strong></span>
-      <span>Live Proof-of-Skill &amp; Interactive Labs: <a href="https://ln.run/RfYKG" target="_blank">ln.run/RfYKG</a></span>
-    </footer>
-
   </div>
 
 </body>
@@ -1247,35 +1226,68 @@ print(f"Generated {cv_en_path}")
 
 # Run Chrome headless to render PDFs
 chrome_bin = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-pdf_vi = os.path.join(workspace, "CV_NguyenThienDinh_Executive.pdf")
-pdf_en = os.path.join(workspace, "CV_NguyenThienDinh_Executive_EN.pdf")
+pdf_vi = os.path.join(workspace, "CV_NguyenThienDinh_LapTrinhVien.pdf")
+pdf_en = os.path.join(workspace, "CV_NguyenThienDinh_SoftwareDeveloper.pdf")
+
+import time
+
+def safe_copy(src, dst):
+    for attempt in range(5):
+        try:
+            shutil.copy2(src, dst)
+            print(f"Copied to: {os.path.basename(dst)}")
+            return
+        except Exception as e:
+            time.sleep(0.5)
+    print(f"Warning: could not update {os.path.basename(dst)} (file may be open in viewer)")
 
 def render_pdf(html_path, out_pdf):
-    if os.path.exists(out_pdf):
+    temp_pdf = out_pdf + ".tmp.pdf"
+    if os.path.exists(temp_pdf):
         try:
-            os.remove(out_pdf)
-        except Exception as e:
-            print(f"Notice removing {out_pdf}: {e}")
+            os.remove(temp_pdf)
+        except Exception:
+            pass
     cmd = [
         chrome_bin,
         "--headless=new",
         "--disable-gpu",
         "--no-sandbox",
-        f"--print-to-pdf={out_pdf}",
+        f"--print-to-pdf={temp_pdf}",
         "--no-pdf-header-footer",
         html_path
     ]
     print(f"Rendering {out_pdf}...")
     subprocess.run(cmd, check=True)
-    size = os.path.getsize(out_pdf)
-    print(f"Success! {out_pdf} size: {size} bytes")
+    safe_copy(temp_pdf, out_pdf)
+    if os.path.exists(temp_pdf):
+        try:
+            os.remove(temp_pdf)
+        except Exception:
+            pass
+    if os.path.exists(out_pdf):
+        size = os.path.getsize(out_pdf)
+        print(f"Success! {out_pdf} size: {size} bytes")
 
 render_pdf(cv_vi_path, pdf_vi)
 render_pdf(cv_en_path, pdf_en)
 
-# Also copy to CV_NguyenThienDinh_v2.pdf so existing links immediately download the new pro CV
-v2_path = os.path.join(workspace, "CV_NguyenThienDinh_v2.pdf")
-shutil.copy2(pdf_vi, v2_path)
-print(f"Updated {v2_path} with new Pro CV.")
+# Copy to professional application names & maintain backward compatibility
+copies_vi = [
+    os.path.join(workspace, "CV - Nguyễn Thiên Định - Lập Trình Viên.pdf"),
+    os.path.join(workspace, "CV_NguyenThienDinh_Executive.pdf"),
+    os.path.join(workspace, "CV_NguyenThienDinh_v2.pdf"),
+    os.path.join(workspace, "CV_NguyenThienDinh_Pro.pdf"),
+    os.path.join(workspace, "CV_NguyenThienDinh.pdf"),
+    os.path.join(workspace, "CV Nguyễn Thiên Định - Chuyên Viên Lập Trình.pdf")
+]
+for target in copies_vi:
+    safe_copy(pdf_vi, target)
+
+copies_en = [
+    os.path.join(workspace, "CV_NguyenThienDinh_Executive_EN.pdf")
+]
+for target in copies_en:
+    safe_copy(pdf_en, target)
 
 print("All tasks completed successfully!")

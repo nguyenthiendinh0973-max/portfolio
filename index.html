@@ -402,7 +402,7 @@
             <i data-lucide="play" class="w-4 h-4 fill-current"></i>
             <span data-i18n="btn_labs">Trải Nghiệm Live Proof-of-Skill</span>
           </a>
-          <a href="CV_NguyenThienDinh_Executive.pdf" download class="px-5 py-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-700/80 text-white font-medium text-xs sm:text-sm transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
+          <a href="CV_NguyenThienDinh_LapTrinhVien.pdf" download="CV_NguyenThienDinh_LapTrinhVien.pdf" class="px-5 py-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-700/80 text-white font-medium text-xs sm:text-sm transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
             <i data-lucide="download" class="w-4 h-4 text-emerald-400"></i>
             <span data-i18n="btn_download_cv">Tải CV (PDF)</span>
           </a>
@@ -486,8 +486,8 @@
           </div>
 
           <!-- Clean link -->
-          <a href="https://ln.run/RfYKG" target="_blank" class="block w-full text-center py-2 rounded-xl bg-indigo-600/15 hover:bg-indigo-600/25 text-indigo-300 font-medium text-xs border border-indigo-500/30 transition-colors" data-i18n="card_origin_portfolio">
-            Khám phá Portfolio Gốc (ln.run/RfYKG) ↗
+          <a href="https://nguyenthiendinh0973-max.github.io/portfolio/" target="_blank" class="block w-full text-center py-2 rounded-xl bg-indigo-600/15 hover:bg-indigo-600/25 text-indigo-300 font-medium text-xs border border-indigo-500/30 transition-colors" data-i18n="card_origin_portfolio">
+            Khám phá Portfolio Trực Tuyến ↗
           </a>
 
         </div>
@@ -1660,32 +1660,19 @@ EXEC sp_GetOptimizedOrdersSummary
 
         <!-- Certifications -->
         <div class="rounded-2xl bg-slate-900/60 border border-slate-800 p-6 flex flex-col justify-between">
-          <div class="space-y-4">
+          <div class="space-y-3">
             <div class="w-10 h-10 rounded-xl bg-sky-500/10 border border-sky-500/20 text-sky-400 flex items-center justify-center">
               <i data-lucide="award" class="w-5 h-5"></i>
             </div>
-            <h4 class="text-lg font-bold text-white" data-i18n="edu_cert_h">Chứng Chỉ Chuyên Môn</h4>
-            
-            <div class="space-y-3">
-              <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/50">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 mt-0.5"></i>
-                <div>
-                  <p class="text-sm font-semibold text-white" data-i18n="edu_cert1_title">Chứng Chỉ TOEIC 745 Điểm</p>
-                  <p class="text-xs text-slate-400" data-i18n="edu_cert1_desc">Cấp bởi IIG Vietnam — Đọc hiểu tài liệu kỹ thuật chuyên sâu và giao tiếp tốt</p>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/50">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 mt-0.5"></i>
-                <div>
-                  <p class="text-sm font-semibold text-white" data-i18n="edu_cert2_title">Chứng Chỉ Web Full-Stack & Đồ Họa Căn Bản</p>
-                  <p class="text-xs text-slate-400" data-i18n="edu_cert2_desc">Hoàn thành đào tạo chuyên sâu về Full-Stack Web & Multimedia</p>
-                </div>
-              </div>
-            </div>
+            <h4 class="text-lg font-bold text-white" data-i18n="edu_cert_h">Chứng Chỉ & Ngoại Ngữ</h4>
+            <p class="text-sm text-sky-400 font-medium" data-i18n="edu_cert1_title">Chứng Chỉ Tiếng Anh TOEIC 745 Điểm (IIG Vietnam)</p>
+            <p class="text-xs text-slate-400 leading-relaxed" data-i18n="edu_cert1_desc">
+              Chứng chỉ tiếng Anh quốc tế được cấp bởi <strong>Tổ chức Giáo dục IIG Vietnam</strong> (Đại diện chính thức của Viện Khảo thí Giáo dục Hoa Kỳ - ETS). Năng lực đọc hiểu trôi chảy tài liệu kỹ thuật chuyên sâu, viết tài liệu dự án và giao tiếp, phối hợp linh hoạt trong môi trường làm việc quốc tế.
+            </p>
           </div>
-          <div class="mt-6 pt-4 border-t border-slate-800 text-xs text-slate-400" data-i18n="edu_cert_footer">
-            Sẵn sàng đáp ứng tiêu chuẩn làm việc trong môi trường quốc tế
+          <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+            <span data-i18n="edu_cert_footer">Chuẩn tiếng Anh làm việc chuyên nghiệp & quốc tế</span>
+            <span class="text-emerald-400 font-semibold font-mono">TOEIC 745 / 990</span>
           </div>
         </div>
       </div>
@@ -1755,7 +1742,7 @@ EXEC sp_GetOptimizedOrdersSummary
                 <a href="https://www.linkedin.com/in/nguyenthiendinh" target="_blank" class="social-icon w-10 h-10 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-300 hover:text-[#0077B5] hover:border-[#0077B5]" title="LinkedIn">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                 </a>
-                <a href="https://ln.run/RfYKG" target="_blank" class="social-icon w-10 h-10 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-300 hover:text-sky-400 hover:border-sky-500" title="Online Portfolio">
+                <a href="https://nguyenthiendinh0973-max.github.io/portfolio/" target="_blank" class="social-icon w-10 h-10 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-300 hover:text-sky-400 hover:border-sky-500" title="Online Portfolio">
                   <i data-lucide="external-link" class="w-4 h-4"></i>
                 </a>
               </div>
@@ -2358,7 +2345,7 @@ EXEC sp_GetOptimizedOrdersSummary
               <i data-lucide="mail" class="w-4 h-4"></i>
               nguyenthiendinh.dev@gmail.com
             </a>
-            <a href="https://ln.run/RfYKG" target="_blank" class="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-medium text-xs sm:text-sm flex items-center gap-2 transition-all hover:scale-105">
+            <a href="https://nguyenthiendinh0973-max.github.io/portfolio/" target="_blank" class="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-medium text-xs sm:text-sm flex items-center gap-2 transition-all hover:scale-105">
               <i data-lucide="external-link" class="w-4 h-4 text-sky-400"></i>
               Portfolio Online
             </a>
@@ -3161,12 +3148,11 @@ Phong cách: Thân thiện, chân thành, tự tin, chuyên nghiệp, giải th�
 
       // 4. Học vấn, bằng cấp, chứng chỉ
       if (q.includes("học vấn") || q.includes("bằng") || q.includes("trường") || q.includes("tốt nghiệp") || q.includes("đại học") || q.includes("toeic") || q.includes("tiếng anh") || q.includes("điểm")) {
-        return "🎓 **Học vấn & Năng lực thực chiến của Nguyễn Thiên Định**:\n\n" +
+        return "🎓 **Học vấn & Chứng chỉ của Nguyễn Thiên Định**:\n\n" +
                "• **Trường**: Trường Đại Học Kỹ Thuật - Công Nghệ Cần Thơ (2019 – 2024).\n" +
                "• **Chuyên ngành**: Kỹ Sư Kỹ Thuật Phần Mềm (Tốt nghiệp loại Khá).\n" +
                "• **Làm chủ dự án**: Khả năng độc lập thực hiện toàn bộ vòng đời dự án (Full-Cycle Engineering) từ khảo sát phân tích yêu cầu, kiến trúc hệ thống, lập trình Full-Stack, đóng gói Windows Installer, triển khai server production và bảo trì dài hạn.\n" +
-               "• **Ngoại ngữ**: Chứng chỉ Tiếng Anh **TOEIC 745** (IIG Vietnam cấp) — khả năng đọc hiểu tài liệu chuyên sâu và giao tiếp tốt.\n" +
-               "• **Chứng chỉ khác**: Lập trình Web Full-Stack & Thiết kế đồ họa đa phương tiện.";
+               "• **Chứng chỉ ngoại ngữ**: Chứng chỉ Tiếng Anh quốc tế **TOEIC 745** (IIG Vietnam cấp) — đọc hiểu tài liệu chuyên sâu và giao tiếp tốt trong môi trường làm việc.";
       }
 
       // 5. Liên hệ, thông tin cá nhân
@@ -3175,7 +3161,7 @@ Phong cách: Thân thiện, chân thành, tự tin, chuyên nghiệp, giải th�
                "• 📱 Số điện thoại / Zalo: **0854 243 828**\n" +
                "• ✉ Email: **nguyenthiendinh.dev@gmail.com**\n" +
                "• 📍 Khu vực: Ninh Kiều, TP. Cần Thơ\n" +
-               "• 🌐 Portfolio: [ln.run/RfYKG](https://ln.run/RfYKG)\n\n" +
+               "• 🌐 Portfolio: [nguyenthiendinh0973-max.github.io/portfolio](https://nguyenthiendinh0973-max.github.io/portfolio/)\n\n" +
                "Định luôn sẵn sàng trao đổi về các dự án tự do hoặc cơ hội hợp tác làm việc!";
       }
 
@@ -3390,7 +3376,7 @@ Phong cách: Thân thiện, chân thành, tự tin, chuyên nghiệp, giải th�
         card_db_label: "Tối ưu Query CSDL:",
         card_special_label: "Trải nghiệm tương tác:",
         card_core_stack: "Core Tech Stack",
-        card_origin_portfolio: "Khám phá Portfolio Gốc (ln.run/RfYKG) ↗",
+        card_origin_portfolio: "Khám phá Portfolio Trực Tuyến ↗",
         stat_exp: "Năm Kinh Nghiệm",
         stat_projects: "Dự Án Hoàn Thành",
         stat_skills: "Công Nghệ Thành Thạo",
@@ -3538,12 +3524,10 @@ Phong cách: Thân thiện, chân thành, tự tin, chuyên nghiệp, giải th�
         edu_desc: "Tốt nghiệp xếp loại <strong>Khá</strong>. Khả năng độc lập làm chủ các dự án lớn từ phân tích yêu cầu, thiết kế kiến trúc, lập trình Full-Stack, tích hợp phần cứng/IoT đến đóng gói installer, triển khai server và bảo trì dài hạn.",
         edu_uni_major: "Chuyên ngành Kỹ thuật Phần mềm",
         edu_uni_thesis: "Làm chủ dự án A-Z",
-        edu_cert_h: "Chứng Chỉ Chuyên Môn",
-        edu_cert1_title: "Chứng Chỉ TOEIC 745 Điểm",
-        edu_cert1_desc: "Cấp bởi IIG Vietnam — Đọc hiểu tài liệu kỹ thuật chuyên sâu và giao tiếp tốt",
-        edu_cert2_title: "Chứng Chỉ Web Full-Stack & Đồ Họa Căn Bản",
-        edu_cert2_desc: "Hoàn thành đào tạo chuyên sâu về Full-Stack Web & Multimedia",
-        edu_cert_footer: "Sẵn sàng đáp ứng tiêu chuẩn làm việc trong môi trường quốc tế",
+        edu_cert_h: "Chứng Chỉ & Ngoại Ngữ",
+        edu_cert1_title: "Chứng Chỉ Tiếng Anh TOEIC 745 Điểm (IIG Vietnam)",
+        edu_cert1_desc: "Chứng chỉ tiếng Anh quốc tế được cấp bởi <strong>Tổ chức Giáo dục IIG Vietnam</strong> (Đại diện chính thức của Viện Khảo thí Giáo dục Hoa Kỳ - ETS). Năng lực đọc hiểu trôi chảy tài liệu kỹ thuật chuyên sâu, viết tài liệu dự án và giao tiếp, phối hợp linh hoạt trong môi trường làm việc quốc tế.",
+        edu_cert_footer: "Chuẩn tiếng Anh làm việc chuyên nghiệp & quốc tế",
         contact_badge: "Get In Touch",
         contact_title: "Liên Hệ & Hợp Tác Dự Án",
         contact_desc: "Sẵn sàng trao đổi về các giải pháp phần mềm, tự động hóa IoT, hệ thống ERP hoặc các cơ hội việc làm.",
@@ -3633,7 +3617,7 @@ Phong cách: Thân thiện, chân thành, tự tin, chuyên nghiệp, giải th�
         card_db_label: "Database Query Tuning:",
         card_special_label: "Interactive Experience:",
         card_core_stack: "Core Tech Stack",
-        card_origin_portfolio: "Explore Original Portfolio (ln.run/RfYKG) ↗",
+        card_origin_portfolio: "Explore Online Portfolio ↗",
         stat_exp: "Years Experience",
         stat_projects: "Completed Projects",
         stat_skills: "Tech Stack Mastered",
@@ -3781,12 +3765,10 @@ Phong cách: Thân thiện, chân thành, tự tin, chuyên nghiệp, giải th�
         edu_desc: "Graduated with <strong>Good standing</strong>. Proven ability to independently lead large-scale software systems from requirements analysis, system architecture, Full-Stack engineering to packaging installers, server deployments, and long-term maintenance.",
         edu_uni_major: "Software Engineering",
         edu_uni_thesis: "Full-Cycle Delivery A–Z",
-        edu_cert_h: "Professional Certifications",
+        edu_cert_h: "Certifications & Languages",
         edu_cert1_title: "TOEIC 745 Certificate (IIG Vietnam)",
-        edu_cert1_desc: "Issued by IIG Vietnam — Strong command of technical documentation and business communication.",
-        edu_cert2_title: "Full-Stack Web & Multimedia Certification",
-        edu_cert2_desc: "Completed intensive training in Full-Stack Web Development & Multimedia.",
-        edu_cert_footer: "Ready to meet international workplace standards and multicultural collaboration.",
+        edu_cert1_desc: "International English certificate issued by <strong>IIG Vietnam</strong> (ETS Official Representative). Fluent comprehension of deep technical documentation, project reporting, and effective collaboration in global working environments.",
+        edu_cert_footer: "International workplace communication proficiency",
         contact_badge: "Get In Touch",
         contact_title: "Contact & Project Inquiries",
         contact_desc: "Available to discuss software engineering, IoT automation, ERP systems, or employment opportunities.",

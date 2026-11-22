@@ -103,7 +103,7 @@ function getKnowledgeBaseContent() {
   return `
 [HỌ VÀ TÊN]: NGUYỄN THIÊN ĐỊNH
 [VỊ TRÍ]: CHUYÊN VIÊN LẬP TRÌNH (FULL-STACK / ERP / TỰ ĐỘNG HÓA)
-[LIÊN HỆ]: SĐT: 0854 243 828 | Email: nguyenthiendinh.dev@gmail.com | Đ/c: Ninh Kiều, Cần Thơ | Portfolio: https://ln.run/RfYKG
+[LIÊN HỆ]: SĐT: 0854 243 828 | Email: nguyenthiendinh.dev@gmail.com | Đ/c: Ninh Kiều, Cần Thơ | Portfolio: https://nguyenthiendinh0973-max.github.io/portfolio/
 [MỤC TIÊU]: Kỹ sư Kỹ thuật Phần mềm với gần 2 năm kinh nghiệm thực chiến lập trình Web, Desktop & API Doanh nghiệp. Thế mạnh: ReactJS, Node.js, PHP/Laravel, RESTful API và Cơ sở dữ liệu SQL, tối ưu hóa hệ thống ERP/CRM, tự động hóa quy trình sản xuất và vận hành.
 [KỸ NĂNG CHUYÊN MÔN]:
 - Frontend & UI: ReactJS, Vue.js, Tailwind CSS, JavaScript (ES6+), HTML5/CSS3, Bootstrap
@@ -131,7 +131,7 @@ function getKnowledgeBaseContent() {
 - Đại Học Kỹ Thuật - Công Nghệ Cần Thơ: Kỹ Sư Kỹ Thuật Phần Mềm (2019 - 2024), Tốt nghiệp loại Khá.
 - Năng lực nổi bật: Độc lập làm chủ toàn bộ vòng đời phát triển dự án quy mô lớn (Solo Full-Cycle Engineering): từ phân tích yêu cầu, thiết kế kiến trúc, lập trình Full-Stack đến đóng gói Windows Installer, triển khai server production và bảo trì dài hạn.
 - Tối ưu hóa truy vấn CSDL (+25% tốc độ), tự động hóa Google Apps Script, tích hợp thiết bị IoT (MQTT/ESP32/C# .NET) và Mascot 3D Web tương tác sinh động.
-- Chứng chỉ: TOEIC 745 (IIG Vietnam), Chứng chỉ Lập trình Web Full-Stack & Thiết kế đồ họa.
+- Chứng chỉ ngoại ngữ: TOEIC 745 (IIG Vietnam cấp).
 `;
 }
 
