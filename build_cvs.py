@@ -464,6 +464,10 @@ def generate_html(variant):
             <div class="skill-group-items">ESP32 / MQTT, Modbus, C# WinForms/WPF, Google Apps Script, Mascot 3D + Audio, SpeechAce AI</div>
           </div>
           <div class="skill-group">
+            <div class="skill-group-title">Mobile &amp; Bảo Mật Ứng Dụng</div>
+            <div class="skill-group-items">Flutter, Dart, Riverpod, GoRouter, Drift (SQLite), Argon2id, AES-256-GCM, Biometric Auth</div>
+          </div>
+          <div class="skill-group">
             <div class="skill-group-title">Hạ Tầng, DevOps &amp; Khác</div>
             <div class="skill-group-items">Git, GitHub PR, Docker căn bản, VPS Linux / Nginx SSL, CI/CD, QA/QC</div>
           </div>
@@ -566,6 +570,11 @@ def generate_html(variant):
               <td class="proj-name">Google Apps Script &amp; Query Optimizer</td>
               <td>Tự động hóa đồng bộ Google Sheets, tối ưu hóa truy vấn Database, Stored Procedures &amp; Indexing.</td>
               <td class="proj-res">+25% Speedup</td>
+            </tr>
+            <tr>
+              <td class="proj-name">SafeVault — Quản Lý Mật Khẩu Offline</td>
+              <td>App Flutter (Riverpod, GoRouter, Drift SQLite) mã hóa Argon2id + AES-256-GCM, DEK 256-bit, sinh trắc học, dashboard fl_chart.</td>
+              <td class="proj-res"><a href="https://drive.google.com/uc?export=download&id=1uzp6S8bmiWwCOBTlz0uot1TRg6oWT4Dc">Tải App</a></td>
             </tr>
           </tbody>
         </table>

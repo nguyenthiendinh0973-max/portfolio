@@ -81,6 +81,14 @@ Kỹ sư Kỹ thuật Phần mềm với gần 2 năm kinh nghiệm thực chi�
   + Năng lực nổi bật: Độc lập làm chủ toàn bộ vòng đời phát triển dự án quy mô lớn (Solo Full-Cycle Engineering): từ phân tích yêu cầu, thiết kế kiến trúc, lập trình Full-Stack, tích hợp phần cứng/IoT đến đóng gói Windows Installer, triển khai server production và bảo trì vận hành.
 - Chứng chỉ ngoại ngữ: Tiếng Anh TOEIC 745 (IIG Vietnam cấp) - Khả năng đọc hiểu tài liệu chuyên sâu và giao tiếp tốt trong môi trường quốc tế.
 
+[DỰ ÁN NỔI BẬT GẦN ĐÂY]
+- SafeVault — Ứng dụng Quản lý Mật khẩu Offline-First & Bảo mật Đa lớp (Flutter):
+  + Mô tả: Ứng dụng di động lưu trữ và quản lý mật khẩu hoạt động hoàn toàn ngoại tuyến (Zero-Cloud) với giao diện Obsidian Black & Champagne Gold (Dark/Light mode).
+  + Kiến trúc & Bảo mật: Dẫn xuất khóa Master Password bằng Argon2id, mã hóa dữ liệu bằng AES-256-GCM (cipherText, nonce, mac) trên Drift (SQLite), tách biệt Data Encryption Key (DEK 256-bit), Recovery Key 24 ký tự (120-bit entropy).
+  + Bảo vệ thiết bị: Mở khóa sinh trắc học (local_auth), lưu khóa trong Keystore/Keychain (flutter_secure_storage), tự động xóa clipboard sau khi sao chép, chống chụp/quay màn hình (ScreenSecurityService).
+  + Tính năng khác: Trình tạo mật khẩu & đo độ mạnh mật khẩu, Security Center & Dashboard thống kê trực quan (fl_chart), xuất/nhập sao lưu mã hóa cục bộ (file_picker), Demo Mode & Guide, điều hướng GoRouter (StatefulShellRoute), quản lý trạng thái Riverpod.
+  + Link tải ứng dụng: https://drive.google.com/uc?export=download&id=1uzp6S8bmiWwCOBTlz0uot1TRg6oWT4Dc
+
 [CÂU HỎI THƯỜNG GẶP (FAQ) DÀNH CHO NHÀ TUYỂN DỤNG]
 Q: Định có kinh nghiệm bao nhiêu năm trong ngành lập trình?
 A: Định có gần 2 năm kinh nghiệm thực chiến lập trình Full-Stack Web, Desktop & API Doanh nghiệp, cùng khả năng độc lập triển khai dự án lớn toàn diện từ A–Z.

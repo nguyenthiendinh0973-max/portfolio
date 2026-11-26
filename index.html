@@ -1417,6 +1417,50 @@ EXEC sp_GetOptimizedOrdersSummary
           </div>
         </div>
 
+        <!-- Project 7: SafeVault -->
+        <div class="project-card md:col-span-2 lg:col-span-3 rounded-2xl bg-slate-900/60 border border-amber-500/30 overflow-hidden group grid grid-cols-1 lg:grid-cols-12" data-aos="fade-up" data-aos-delay="100">
+          <div class="lg:col-span-4 relative min-h-[12rem] bg-gradient-to-br from-[#0b0b0f] via-[#14141b] to-amber-900/30 flex items-center justify-center overflow-hidden border-b lg:border-b-0 lg:border-r border-slate-800">
+            <div class="text-center space-y-2.5 p-6">
+              <div class="w-16 h-16 mx-auto rounded-2xl bg-amber-500/15 border border-amber-400/40 flex items-center justify-center shadow-lg shadow-amber-500/10">
+                <i data-lucide="shield-check" class="w-8 h-8 text-amber-300"></i>
+              </div>
+              <div class="text-base font-bold text-amber-200 tracking-wide">SafeVault</div>
+              <div class="text-[11px] font-mono text-amber-400/80 uppercase tracking-widest" data-i18n="p7_badge">Offline-First Security App</div>
+            </div>
+            <a href="https://drive.google.com/uc?export=download&id=1uzp6S8bmiWwCOBTlz0uot1TRg6oWT4Dc" target="_blank" rel="noopener noreferrer" class="project-overlay absolute inset-0 bg-amber-600/90 flex items-center justify-center">
+              <span class="text-white font-bold text-sm flex items-center gap-2"><i data-lucide="download" class="w-4 h-4"></i> <span data-i18n="p7_download">Tải App (APK)</span></span>
+            </a>
+          </div>
+          <div class="lg:col-span-8 p-6 flex flex-col justify-between space-y-4">
+            <div class="space-y-2.5">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <h4 class="text-lg font-bold text-white" data-i18n="p7_title">SafeVault — Ứng dụng Quản lý Mật khẩu Offline-First &amp; Bảo mật Đa lớp</h4>
+                <span class="text-[11px] text-amber-300 font-semibold px-2.5 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/30" data-i18n="p7_status">✓ Hoàn thành • Mobile App</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-400 leading-relaxed" data-i18n="p7_desc">Ứng dụng di động lưu trữ mật khẩu hoàn toàn ngoại tuyến (Zero-Cloud) với giao diện Obsidian Black &amp; Champagne Gold. Dẫn xuất khóa chuẩn <strong class="text-amber-300">Argon2id</strong>, mã hóa <strong class="text-amber-300">AES-256-GCM</strong> trên Drift (SQLite), tách biệt DEK 256-bit &amp; Recovery Key 120-bit, mở khóa sinh trắc học (Keystore/Keychain), tự xóa clipboard, chống chụp màn hình, Security Dashboard (fl_chart) và sao lưu mã hóa cục bộ.</p>
+            </div>
+            <div class="space-y-3">
+              <div class="flex flex-wrap gap-1.5 text-[10px] font-mono">
+                <span class="px-2 py-0.5 rounded bg-amber-950/60 text-amber-300 border border-amber-700/50">Flutter</span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300">Riverpod</span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300">GoRouter</span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300">Drift (SQLite)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300">Argon2id</span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300">AES-256-GCM</span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300">Biometric Auth</span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300">fl_chart</span>
+              </div>
+              <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-800">
+                <span class="text-[11px] text-slate-500 font-mono">Flutter Mobile • Zero-Cloud Architecture</span>
+                <a href="https://drive.google.com/uc?export=download&id=1uzp6S8bmiWwCOBTlz0uot1TRg6oWT4Dc" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-xs font-semibold transition-all">
+                  <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                  <span data-i18n="p7_download">Tải App (APK)</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -3519,6 +3563,11 @@ Phong cách: Thân thiện, chân thành, tự tin, chuyên nghiệp, giải th�
         p6_title: "Data Migration & Query Optimizer",
         p6_desc: 'Công cụ di chuyển dữ liệu SQL Server ↔ MySQL, tối ưu hóa truy vấn Stored Proc & Index — <strong class="text-emerald-400">tăng 25% tốc độ xử lý</strong>.',
         p6_status: "✓ +25% Speedup",
+        p7_badge: "Offline-First Security App",
+        p7_title: "SafeVault — Ứng dụng Quản lý Mật khẩu Offline-First & Bảo mật Đa lớp",
+        p7_desc: 'Ứng dụng di động lưu trữ mật khẩu hoàn toàn ngoại tuyến (Zero-Cloud) với giao diện Obsidian Black &amp; Champagne Gold. Dẫn xuất khóa chuẩn <strong class="text-amber-300">Argon2id</strong>, mã hóa <strong class="text-amber-300">AES-256-GCM</strong> trên Drift (SQLite), tách biệt DEK 256-bit &amp; Recovery Key 120-bit, mở khóa sinh trắc học (Keystore/Keychain), tự xóa clipboard, chống chụp màn hình, Security Dashboard (fl_chart) và sao lưu mã hóa cục bộ.',
+        p7_status: "✓ Hoàn thành • Mobile App",
+        p7_download: "Tải App (APK)",
         exp_badge: "Career Milestones",
         exp_title: "Kinh Nghiệm Làm Việc Thực Chiến",
         exp_desc: "Quá trình công tác thực tế, vai trò kỹ thuật và các sản phẩm phần mềm đã tham gia xây dựng.",
@@ -3760,6 +3809,11 @@ Phong cách: Thân thiện, chân thành, tự tin, chuyên nghiệp, giải th�
         p6_title: "Data Migration & Query Optimizer",
         p6_desc: 'Bi-directional data migration between SQL Server & MySQL, Stored Proc & Index optimization — <strong class="text-emerald-400">+25% query speedup</strong>.',
         p6_status: "✓ +25% Speedup",
+        p7_badge: "Offline-First Security App",
+        p7_title: "SafeVault — Offline-First Encrypted Password Manager (Flutter)",
+        p7_desc: 'Zero-cloud, offline-first password manager featuring a custom Obsidian Black &amp; Champagne Gold UI. Engineered with <strong class="text-amber-300">Argon2id</strong> KDF, <strong class="text-amber-300">AES-256-GCM</strong> authenticated encryption over Drift (SQLite), 256-bit DEK wrapping &amp; 120-bit Recovery Key, hardware-backed biometric unlock, auto-clearing clipboard, screen capture protection, security audit dashboard (fl_chart), and encrypted local backup/restore.',
+        p7_status: "✓ Completed • Mobile App",
+        p7_download: "Download App (APK)",
         exp_badge: "Career Milestones",
         exp_title: "Professional Work Experience",
         exp_desc: "Professional journey, technical roles, and enterprise software systems delivered.",
