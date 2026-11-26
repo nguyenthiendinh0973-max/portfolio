@@ -19,7 +19,7 @@ Kỹ sư Kỹ thuật Phần mềm với gần 2 năm kinh nghiệm thực chi�
 [TỔNG HỢP KỸ NĂNG CHUYÊN MÔN (SKILLS SHOWCASE)]
 1. Frontend & UI/UX:
    - Framework & UI Library: Tailwind CSS, Bootstrap 5, ReactJS (Hooks, Redux), Vue.js
-   - Core & Dynamic Interactions: JavaScript (ES6+), jQuery, AJAX (Asynchronous Fetch), HTML5, CSS3 Responsive
+   - Core & Dynamic Interactions: JavaScript (ES6+), jQuery, AJAX (Asynchronous Fetch), HTML5, CSS3 Responsive, Technical & On-page SEO
    - 3D Web & Interactive Media: Tích hợp Mascot 3D tương tác trên Web, hiệu ứng Âm thanh / Audio sống động, Audio DSP, SpeechAce AI phát âm
 
 2. Backend & API:
