@@ -219,8 +219,8 @@
       opacity: 0.08 !important;
     }
     html.light #pageNav {
-      background-color: rgba(255, 255, 255, 0.85) !important;
-      border-color: rgba(226, 232, 240, 0.8) !important;
+      background-color: rgba(255, 255, 255, 0.88) !important;
+      border-color: rgba(226, 232, 240, 0.9) !important;
     }
     html.light #pageNav a, html.light #pageNav span, html.light #pageNav div {
       color: #1e293b;
@@ -228,9 +228,9 @@
     html.light #pageNav .text-white {
       color: #0f172a !important;
     }
-    html.light #pageNav .bg-white\/\[0\.03\] {
-      background-color: rgba(0, 0, 0, 0.04) !important;
-      border-color: rgba(0, 0, 0, 0.08) !important;
+    html.light #pageNav .bg-white\/\[0\.03\], html.light .bg-white\/\[0\.03\], html.light .bg-white\/\[0\.04\] {
+      background-color: rgba(15, 23, 42, 0.04) !important;
+      border-color: rgba(15, 23, 42, 0.08) !important;
     }
     html.light #pageNav .text-slate-300 {
       color: #475569 !important;
@@ -243,21 +243,34 @@
       background: #f1f5f9 !important;
       background-color: #f1f5f9 !important;
     }
-    html.light .bg-slate-900, html.light .bg-slate-900\/40, html.light .bg-slate-900\/50, html.light .bg-slate-900\/60,
-    html.light .bg-slate-900\/70, html.light .bg-slate-900\/80, html.light .bg-slate-900\/90,
-    html.light .bg-slate-950, html.light .bg-slate-950\/70, html.light .bg-slate-950\/80 {
+    /* Cards & dark gradient panels -> clean white cards */
+    html.light [class*="bg-slate-900"],
+    html.light [class*="bg-slate-950"],
+    html.light [class*="from-slate-900"],
+    html.light [class*="to-slate-950"] {
+      background-image: none !important;
       background-color: #ffffff !important;
       border-color: #e2e8f0 !important;
       color: #334155 !important;
     }
-    html.light .bg-slate-800, html.light .bg-slate-800\/50, html.light .bg-slate-800\/60, html.light .bg-slate-800\/80 {
+    /* Nested dark pills & tabs -> soft slate-100 */
+    html.light [class*="bg-slate-800"],
+    html.light .bg-slate-700 {
       background-color: #f1f5f9 !important;
       border-color: #cbd5e1 !important;
       color: #334155 !important;
     }
-    html.light .border-slate-800, html.light .border-slate-800\/80, html.light .border-slate-800\/90,
-    html.light .border-slate-700, html.light .border-white\/10, html.light .border-white\/15 {
+    html.light [class*="border-slate-800"],
+    html.light [class*="border-slate-700"],
+    html.light [class*="border-slate-900"],
+    html.light .border-slate-950,
+    html.light .border-white\/10,
+    html.light .border-white\/15,
+    html.light .border-white\/\[0\.08\] {
       border-color: #e2e8f0 !important;
+    }
+    html.light .border-\[\#0b0f19\] {
+      border-color: #f1f5f9 !important;
     }
     html.light .text-white {
       color: #0f172a !important;
@@ -282,14 +295,16 @@
     html.light .text-sky-300, html.light .text-sky-400 { color: #0284c7 !important; }
     html.light .text-amber-200, html.light .text-amber-300, html.light .text-amber-400 { color: #b45309 !important; }
     html.light .text-green-300, html.light .text-green-400 { color: #16a34a !important; }
+    html.light .text-purple-300, html.light .text-purple-400 { color: #7e22ce !important; }
     html.light .text-rose-300, html.light .text-rose-400 { color: #e11d48 !important; }
-    /* Soft pastel pills in light mode */
-    html.light .bg-indigo-950\/60 { background-color: #eef2ff !important; border-color: #c7d2fe !important; }
-    html.light .bg-emerald-950\/60 { background-color: #ecfdf5 !important; border-color: #a7f3d0 !important; }
-    html.light .bg-sky-950\/60 { background-color: #f0f9ff !important; border-color: #bae6fd !important; }
-    html.light .bg-amber-950\/60 { background-color: #fffbeb !important; border-color: #fde68a !important; }
-    html.light .bg-green-950\/60 { background-color: #f0fdf4 !important; border-color: #bbf7d0 !important; }
-    html.light .bg-rose-950\/60 { background-color: #fff1f2 !important; border-color: #fecdd3 !important; }
+    /* Soft pastel pills & icon boxes in light mode (all opacity variants) */
+    html.light [class*="bg-indigo-950"] { background-color: #eef2ff !important; border-color: #c7d2fe !important; }
+    html.light [class*="bg-emerald-950"] { background-color: #ecfdf5 !important; border-color: #a7f3d0 !important; }
+    html.light [class*="bg-sky-950"] { background-color: #f0f9ff !important; border-color: #bae6fd !important; }
+    html.light [class*="bg-amber-950"] { background-color: #fffbeb !important; border-color: #fde68a !important; }
+    html.light [class*="bg-green-950"] { background-color: #f0fdf4 !important; border-color: #bbf7d0 !important; }
+    html.light [class*="bg-purple-950"] { background-color: #faf5ff !important; border-color: #e9d5ff !important; }
+    html.light [class*="bg-rose-950"] { background-color: #fff1f2 !important; border-color: #fecdd3 !important; }
     /* Project card visual header gradients in light mode */
     html.light .project-card > div:first-child {
       background: linear-gradient(135deg, #eef2ff 0%, #f8fafc 55%, #e0f2fe 100%) !important;
@@ -298,9 +313,21 @@
     html.light .project-card > div:first-child.to-amber-900\/30 {
       background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 55%, #fde68a 100%) !important;
     }
+    /* Keep terminal / code console boxes dark with crisp light text */
     html.light .bg-black\/60, html.light .bg-black\/70, html.light .bg-black\/80 {
       background-color: #0f172a !important;
+      border-color: #1e293b !important;
       color: #f8fafc !important;
+    }
+    html.light .bg-black\/60 .text-slate-300, html.light .bg-black\/70 .text-slate-300, html.light .bg-black\/80 .text-slate-300,
+    html.light .bg-black\/60 .text-slate-400, html.light .bg-black\/70 .text-slate-400, html.light .bg-black\/80 .text-slate-400 {
+      color: #cbd5e1 !important;
+    }
+    html.light .bg-black\/60 .text-emerald-300, html.light .bg-black\/70 .text-emerald-300, html.light .bg-black\/80 .text-emerald-300 {
+      color: #6ee7b7 !important;
+    }
+    html.light .bg-black\/60 .text-sky-300, html.light .bg-black\/70 .text-sky-300, html.light .bg-black\/80 .text-sky-300 {
+      color: #7dd3fc !important;
     }
     html.light input, html.light select, html.light textarea {
       background-color: #ffffff !important;
@@ -308,7 +335,7 @@
       border-color: #cbd5e1 !important;
     }
     html.light .project-card, html.light .rounded-2xl, html.light .rounded-3xl {
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05) !important;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.06), 0 8px 10px -6px rgba(15, 23, 42, 0.04) !important;
     }
     html.light #backToTop {
       background-color: #ffffff !important;
@@ -319,11 +346,24 @@
       background-color: #ffffff !important;
       border-color: #cbd5e1 !important;
     }
+    html.light #chatModal > div:first-child {
+      background: linear-gradient(to right, #eef2ff, #f8fafc) !important;
+      border-color: #e2e8f0 !important;
+    }
     html.light #chatModal .bg-slate-800 {
       background-color: #f1f5f9 !important;
       color: #1e293b !important;
       border-color: #e2e8f0 !important;
     }
+    /* Keep Slide Deck dark & crisp */
+    html.light #slideDeckOverlay {
+      background-color: #060911 !important;
+      color: #f1f5f9 !important;
+    }
+    html.light #slideDeckOverlay .text-white { color: #ffffff !important; }
+    html.light #slideDeckOverlay .text-slate-300 { color: #cbd5e1 !important; }
+    html.light #slideDeckOverlay .text-slate-400 { color: #94a3b8 !important; }
+    html.light #slideDeckOverlay [class*="bg-slate-900"] { background-color: rgba(15, 23, 42, 0.8) !important; color: #f1f5f9 !important; }
   </style>
 </head>
 <body class="bg-[#080c16] text-slate-200 font-sans selection:bg-indigo-500 selection:text-white relative min-h-screen overflow-x-hidden">
