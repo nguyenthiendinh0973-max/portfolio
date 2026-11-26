@@ -238,25 +238,65 @@
     html.light #pageNav a:hover {
       color: #4f46e5 !important;
     }
-    html.light .bg-\[\#080c16\], html.light .bg-\[\#070a13\], html.light .bg-\[\#090e1a\], html.light .bg-\[\#05070e\] {
+    html.light .bg-\[\#080c16\], html.light .bg-\[\#070a13\], html.light .bg-\[\#090e1a\], html.light .bg-\[\#05070e\],
+    html.light .bg-gradient-to-r.from-\[\#0a0e18\] {
+      background: #f1f5f9 !important;
       background-color: #f1f5f9 !important;
     }
-    html.light .bg-slate-900, html.light .bg-slate-900\/60, html.light .bg-slate-900\/80, html.light .bg-slate-900\/90, html.light .bg-slate-950, html.light .bg-slate-950\/70, html.light .bg-slate-950\/80 {
+    html.light .bg-slate-900, html.light .bg-slate-900\/40, html.light .bg-slate-900\/50, html.light .bg-slate-900\/60,
+    html.light .bg-slate-900\/70, html.light .bg-slate-900\/80, html.light .bg-slate-900\/90,
+    html.light .bg-slate-950, html.light .bg-slate-950\/70, html.light .bg-slate-950\/80 {
       background-color: #ffffff !important;
       border-color: #e2e8f0 !important;
       color: #334155 !important;
     }
-    html.light .border-slate-800, html.light .border-slate-800\/80, html.light .border-slate-800\/90, html.light .border-white\/10, html.light .border-white\/15 {
+    html.light .bg-slate-800, html.light .bg-slate-800\/50, html.light .bg-slate-800\/60, html.light .bg-slate-800\/80 {
+      background-color: #f1f5f9 !important;
+      border-color: #cbd5e1 !important;
+      color: #334155 !important;
+    }
+    html.light .border-slate-800, html.light .border-slate-800\/80, html.light .border-slate-800\/90,
+    html.light .border-slate-700, html.light .border-white\/10, html.light .border-white\/15 {
       border-color: #e2e8f0 !important;
     }
     html.light .text-white {
       color: #0f172a !important;
     }
+    /* Keep white text on solid colored buttons & overlays */
+    html.light .bg-indigo-600, html.light .bg-indigo-600 *,
+    html.light .bg-emerald-600, html.light .bg-emerald-600 *,
+    html.light .project-overlay, html.light .project-overlay *,
+    html.light [class*="from-indigo-600"].text-white, html.light [class*="from-indigo-600"] .text-white,
+    html.light [class*="from-indigo-500"].text-white, html.light [class*="from-indigo-500"] .text-white {
+      color: #ffffff !important;
+    }
     html.light .text-slate-200, html.light .text-slate-300 {
       color: #334155 !important;
     }
-    html.light .text-slate-400 {
+    html.light .text-slate-400, html.light .text-slate-500 {
       color: #64748b !important;
+    }
+    /* Saturated accent text on light backgrounds */
+    html.light .text-indigo-300, html.light .text-indigo-400 { color: #4f46e5 !important; }
+    html.light .text-emerald-300, html.light .text-emerald-400 { color: #059669 !important; }
+    html.light .text-sky-300, html.light .text-sky-400 { color: #0284c7 !important; }
+    html.light .text-amber-200, html.light .text-amber-300, html.light .text-amber-400 { color: #b45309 !important; }
+    html.light .text-green-300, html.light .text-green-400 { color: #16a34a !important; }
+    html.light .text-rose-300, html.light .text-rose-400 { color: #e11d48 !important; }
+    /* Soft pastel pills in light mode */
+    html.light .bg-indigo-950\/60 { background-color: #eef2ff !important; border-color: #c7d2fe !important; }
+    html.light .bg-emerald-950\/60 { background-color: #ecfdf5 !important; border-color: #a7f3d0 !important; }
+    html.light .bg-sky-950\/60 { background-color: #f0f9ff !important; border-color: #bae6fd !important; }
+    html.light .bg-amber-950\/60 { background-color: #fffbeb !important; border-color: #fde68a !important; }
+    html.light .bg-green-950\/60 { background-color: #f0fdf4 !important; border-color: #bbf7d0 !important; }
+    html.light .bg-rose-950\/60 { background-color: #fff1f2 !important; border-color: #fecdd3 !important; }
+    /* Project card visual header gradients in light mode */
+    html.light .project-card > div:first-child {
+      background: linear-gradient(135deg, #eef2ff 0%, #f8fafc 55%, #e0f2fe 100%) !important;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    html.light .project-card > div:first-child.to-amber-900\/30 {
+      background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 55%, #fde68a 100%) !important;
     }
     html.light .bg-black\/60, html.light .bg-black\/70, html.light .bg-black\/80 {
       background-color: #0f172a !important;
